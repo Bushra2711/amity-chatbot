@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amity BCA Admission Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <main class="chat-app">
+        <section class="hero-panel sidebar-panel">
+          <div class="sidebar-copy">
+            <div class="brand">
+              <img src="/static/Amity_University_logo.png" class="logo">
+              <div>
+                <h2>Amity University</h2>
+                <p>BCA Admission Assistant</p>
+              </div>
+            </div>
+
+            <span class="eyebrow">Amity University BCA Admission Assistant</span>
+            <h1>Ask about fees, admissions, scholarships, and specializations.</h1>
+            <p>AI-powered university admission assistant with smart replies and interactive specialization cards.</p>
+          </div>
+
+          <nav class="sidebar-actions" aria-label="Quick topics">
+            <button type="button" class="sidebar-btn active" data-topic="fees">Fees</button>
+            <button type="button" class="sidebar-btn" data-topic="admission">Admission</button>
+            <button type="button" class="sidebar-btn" data-topic="scholarships">Scholarships</button>
+            <button type="button" class="sidebar-btn" data-topic="specializations">Specializations</button>
+          </nav>
+        </section>
+
+        <section class="chat-panel">
+          <header class="chat-header">
+            <div class="chat-title">
+              <div class="status-dot"></div>
+              <div>
+                <h2>Live Admission Chat</h2>
+                <p>Human-friendly replies, smart fallback, and specialization cards.</p>
+              </div>
+            </div>
+            <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+          </header>
+
+          <section id="messages" class="messages" aria-live="polite"></section>
+          <section id="specializationPanel"
+         class="specialization-panel hidden">
+          </section>
+          <form id="chatForm" class="composer" autocomplete="off">
+            <input id="messageInput" type="text" placeholder="Type your message..." required>
+            <button id="sendButton" class="quick-btn" type="submit">Send</button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
