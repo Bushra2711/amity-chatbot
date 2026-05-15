@@ -16,7 +16,4 @@ gunicorn==21.2.0
 # Utilities
 python-dotenv==1.0.0
 
-# Development (optional, for local development)
-# Uncomment below if needed for development
-# flask-cors==4.0.0
-# flask-limiter==3.5.0
+
