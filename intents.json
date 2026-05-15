@@ -1,0 +1,208 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "namaste", "hii", "good morning", "good evening", "kaise ho"],
+      "responses_en": ["Hello! 👋 Welcome to Amity BCA Admission Assistant."],
+      "responses_hinglish": ["Namaste! 👋 Amity BCA Admission Assistant mein aapka swagat hai. Main aapki madad ke liye hoon 😊 Kya help chahiye?"]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["fees", "fee", "kitni fees", "cost", "price", "semester fee", "total fee"],
+      "responses_en": ["The total fee for Amity Online BCA ranges from ₹2.25 Lakhs to ₹2.75 Lakhs depending on the specialization. EMI and scholarship options are also available 😊"],
+      "responses_hinglish": ["Total fees specialization ke according ₹2.25 se ₹2.75 Lakh tak hoti hai. EMI aur scholarship options bhi available hain 😊"]
+    },
+   {
+  "tag": "admission",
+  "patterns": ["admission","admission process","apply","how to apply","online form","documents required","admission steps","application fee","eligibility for admission", "admission steps" ],
+  "responses_en": [
+    "✨ Admission Process at Amity University:\n\n1️⃣ Fill the online application form on the official Amity portal.\n2️⃣ Pay the application fee (₹1,500 – non‑refundable).\n3️⃣ Upload required documents: 10th & 12th mark‑sheets, ID proof, passport photo.\n4️⃣ Track your status on the Admission Microsite (updates are posted there, not via email).\n5️⃣ Selection is merit‑based. Students with 80%+ in 12th often get direct admission. Some PG courses may require entrance tests + interviews.\n\n📌 Note: Admissions are currently open for UG, PG, and PhD programs. Deadlines vary by course.\n\nFor help, call the helpline [1800-102-3434](tel:18001023434) or email admissions@amityonline.com 😊"
+  ],
+  "responses_hinglish": [
+    "✨ Amity University Admission Process:\n\n1️⃣ Official Amity portal par online form fill karo.\n2️⃣ Application fee pay karo (₹1,500 – non‑refundable).\n3️⃣ Documents upload karo: 10th & 12th mark‑sheets, ID proof, passport photo.\n4️⃣ Admission Microsite par status check karo (updates wahi milenge, email nahi aayega).\n5️⃣ Selection merit‑based hota hai. Agar aapke 12th me 80%+ marks hain to direct admission mil sakta hai. Kuch PG courses me entrance test + interview bhi hota hai.\n\n📌 Note: Admissions abhi open hain UG, PG aur PhD programs ke liye. Deadlines course ke hisaab se alag hoti hain.\n\nHelp ke liye helpline [1800-102-3434](tel:18001023434) par call karein ya admissions@amityonline.com par email bhejein 😊"
+  ]
+},
+
+    {
+      "tag": "eligibility",
+      "patterns": ["eligibility", "eligible", "qualification", "12th marks"],
+       "responses_en": ["Students must have at least 50% marks in 12th standard. For SC/ST category, the minimum requirement is 45%."],
+      "responses_hinglish": ["12th mein minimum 50% marks chahiye. SC/ST category ke liye 45% required hai."]
+    },
+    {
+      "tag": "documents",
+      "patterns": ["documents", "docs", "required documents"],
+      "responses_en": ["Required Documents: 10th & 12th Marksheet, Aadhaar Card, Passport Size Photos, and Migration Certificate."],
+      "responses_hinglish": ["Documents: 10th-12th marksheet, Aadhaar, photos aur Migration certificate chahiye."]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["scholarship", "scholarships", "merit scholarship"],
+      "responses_en": ["Great news! Amity offers up to 100% scholarship based on your 12th marks. Would you like details?"],
+      "responses_hinglish": ["Bahut acchi baat! 12th marks pe 100% tak scholarship mil sakta hai. Details chahiye?"]
+    },
+    {
+      "tag": "specialization",
+      "patterns": ["specialization", "specializations", "courses", "stream"],
+      "responses_en": ["We have 5 exciting specializations: Data Analytics, Cloud & Security, Software Engineering, Data Engineering, and FinTech & AI."],
+      "responses_hinglish": ["Hamare paas 5 best specializations hain: Data Analytics, Cloud & Security, Software Engineering, Data Engineering aur FinTech & AI."]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["placement", "placements", "job", "package"],
+      "responses_en": ["Amity has strong placements. Average package is 4-6 LPA with companies like TCS, HCL, Paytm, etc."],
+      "responses_hinglish": ["Placement accha hai. Average package 4-6 LPA tak hai. TCS, HCL, Paytm jaise companies aati hain."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "number", "phone", "call", "helpline", "kisse baat kare", "contact number"],
+      "responses_en": ["You can reach us at:\n📧 Email: admissions@amityonline.com\n📞 Phone: +91 1800-102-3434\n Student Support: +91-88263-34455\n We're happy to help!"],
+      "responses_hinglish": ["Aap humse contact kar sakte hain:\n📧 Email: admissions@amityonline.com\n📞 Phone: +91 1800-102-3434\n Student Support: +91-88263-34455\nMain madad ke liye ready hoon 😊"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "thank you", "thanks", "dhanyawad", "thanku", "ok bye"],
+      "responses_en": ["Thank you so much! 😊 Feel free to come back anytime if you have more questions. Best of luck with your admission!"],
+      "responses_hinglish": ["Bahut bahut dhanyawad! 😊 Koi aur sawaal ho toh zaroor poochiye. Admission ke liye best wishes!"]
+    },
+    {
+  "tag": "duration",
+  "patterns": [
+    "duration",
+    "course duration",
+    "how many years",
+    "kitne saal",
+    "semester duration"
+  ],
+  "responses_en": [
+    "The Online BCA program duration is 3 years divided into 6 semesters."
+  ],
+  "responses_hinglish": [
+    "Online BCA course ki duration 3 years hai aur isme 6 semesters hote hain."
+  ]
+},
+{
+  "tag": "online_classes",
+  "patterns": [
+    "online classes",
+    "live classes",
+    "recorded lectures",
+    "class timing",
+    "lectures"
+  ],
+  "responses_en": [
+    "Amity provides live online classes, recorded video lectures, digital study material, and LMS access for students."
+  ],
+  "responses_hinglish": [
+    "Amity live online classes, recorded lectures, study material aur LMS access provide karta hai."
+  ]
+},
+{
+  "tag": "internship",
+  "patterns": [
+    "internship",
+    "internships",
+    "training",
+    "practical exposure"
+  ],
+  "responses_en": [
+    "Yes 😊 Students get internship opportunities, industry projects, and practical exposure during the course."
+  ],
+  "responses_hinglish": [
+    "Haan 😊 Students ko internship opportunities aur industry projects milte hain."
+  ]
+},
+{
+  "tag": "career",
+  "patterns": [
+    "career",
+    "career opportunities",
+    "future scope",
+    "jobs after bca"
+  ],
+  "responses_en": [
+    "After completing BCA, students can work as Software Developers, Data Analysts, Cloud Engineers, Cybersecurity Analysts, or pursue MCA and higher studies."
+  ],
+  "responses_hinglish": [
+    "BCA ke baad students Software Developer, Data Analyst, Cloud Engineer ya Cybersecurity Analyst ban sakte hain."
+  ]
+},
+{
+  "tag": "exams",
+  "patterns": [
+    "exam",
+    "online exam",
+    "semester exams",
+    "assessment"
+  ],
+  "responses_en": [
+    "Semester exams and assessments are conducted online through the Amity learning portal."
+  ],
+  "responses_hinglish": [
+    "Semester exams aur assessments Amity learning portal par online conduct hote hain."
+  ]
+},
+{
+  "tag": "faculty",
+  "patterns": [
+    "faculty",
+    "teachers",
+    "professors",
+    "mentors"
+  ],
+  "responses_en": [
+    "Amity has experienced faculty members, industry experts, and dedicated academic mentors for student support."
+  ],
+  "responses_hinglish": [
+    "Amity ke paas experienced faculty aur industry experts available hain."
+  ]
+},
+{
+  "tag": "ranking",
+  "patterns": [
+    "ranking",
+    "university ranking",
+    "recognition",
+    "approved"
+  ],
+  "responses_en": [
+    "Amity University Online is UGC-entitled and NAAC A+ accredited."
+  ],
+  "responses_hinglish": [
+    "Amity University Online UGC-approved aur NAAC A+ accredited hai."
+  ]
+},
+{
+  "tag": "attendance",
+  "patterns": [
+    "attendance",
+    "attendance required",
+    "mandatory classes"
+  ],
+  "responses_en": [
+    "Online students are encouraged to attend live sessions regularly for better learning and performance."
+  ],
+  "responses_hinglish": [
+    "Students ko regular live sessions attend karne ke liye encourage kiya jata hai."
+  ]
+},
+{
+  "tag": "support",
+  "patterns": [
+    "support",
+    "student support",
+    "help desk",
+    "guidance"
+  ],
+  "responses_en": [
+    "Amity provides 24×7 student support, academic guidance, technical help, and career counselling."
+  ],
+  "responses_hinglish": [
+    "Amity 24×7 student support, academic guidance aur career counselling provide karta hai."
+  ]
+}
+  ]
+}
+
+
+ 

@@ -1,0 +1,22 @@
+# Flask Web Framework
+Flask==3.0.0
+Werkzeug==3.0.0
+
+# Machine Learning & NLP
+scikit-learn==1.3.2
+numpy==1.24.3
+scipy==1.11.4
+
+# Natural Language Toolkit (for future NLP enhancements)
+nltk==3.8.1
+
+# Production Server
+gunicorn==21.2.0
+
+# Utilities
+python-dotenv==1.0.0
+
+# Development (optional, for local development)
+# Uncomment below if needed for development
+# flask-cors==4.0.0
+# flask-limiter==3.5.0
