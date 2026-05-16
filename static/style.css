@@ -668,3 +668,116 @@ body.dark-mode .specialization-detail-card{
 
 .dot:nth-child(2) { animation-delay: 0.2s; }
 .dot:nth-child(3) { animation-delay: 0.4s; }
+/* MOBILE RESPONSIVE FIX */
+
+@media screen and (max-width: 768px){
+
+    body{
+        padding:10px;
+    }
+
+    .page-shell{
+        padding:0;
+    }
+
+    .chat-app{
+        grid-template-columns:1fr;
+        height:auto;
+        gap:14px;
+    }
+
+    .hero-panel,
+    .chat-panel{
+        width:100%;
+        height:auto;
+    }
+
+    .hero-panel h1{
+        font-size:34px;
+        max-width:100%;
+    }
+
+    .hero-panel p{
+        font-size:15px;
+    }
+
+    .chat-header{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:10px;
+    }
+
+    .chat-title h2{
+        font-size:22px;
+    }
+
+    .chat-title p{
+        font-size:14px;
+        line-height:1.5;
+    }
+
+    .messages{
+        padding:14px;
+    }
+
+    .message{
+        width:100%;
+    }
+
+    .message-bubble{
+        max-width:100%;
+        font-size:14px;
+        line-height:1.6;
+        word-break:break-word;
+    }
+
+    .composer{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    #messageInput{
+        width:100%;
+    }
+
+    #sendButton{
+        width:100%;
+        height:52px;
+    }
+
+    .sidebar-actions{
+        width:100%;
+    }
+
+    .sidebar-btn{
+        width:100%;
+        font-size:16px;
+    }
+
+    .language-buttons{
+        flex-wrap:wrap;
+    }
+
+    .specialization-panel{
+        grid-template-columns:1fr;
+        max-height:none;
+        padding:10px;
+    }
+
+    .specialization-detail-card h3{
+        font-size:24px;
+    }
+
+    .brand{
+        align-items:flex-start;
+    }
+
+    .logo{
+        width:55px;
+        height:55px;
+    }
+
+    .dark-mode-toggle{
+        width:100%;
+    }
+}
