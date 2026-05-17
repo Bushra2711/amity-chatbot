@@ -381,9 +381,9 @@ body{
 
     padding:20px;
 
-    border-top:1px solid rgba(0,0,0,0.06);
+    border-top:none;
 
-    background:rgba(255,255,255,0.9);
+    background:#0f172a;
 }
 
 #messageInput{
@@ -401,9 +401,15 @@ body{
 
     outline:none;
 
-    background:white;
+    background:#1e293b;
 
-    box-shadow:0 0 0 2px rgba(14,165,233,0.1);
+    color:white;
+
+    box-shadow:none;
+}
+
+#messageInput::placeholder{
+    color:#94a3b8;
 }
 
 #sendButton{
@@ -780,4 +786,17 @@ body.dark-mode .specialization-detail-card{
     .dark-mode-toggle{
         width:100%;
     }
+}
+.dark-mode-toggle{
+    border:none;
+    background:linear-gradient(135deg,#2563eb,#0ea5e9);
+    color:white;
+    width:48px;
+    height:48px;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
