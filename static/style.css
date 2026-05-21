@@ -753,7 +753,7 @@ body.dark-mode .specialization-detail-card{
 }
 
     #sendButton{
-        width:110%;
+        width:110px;
         height:58px;
         font-size:17px;
     }
