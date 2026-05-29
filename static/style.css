@@ -807,3 +807,17 @@ body.dark-mode .specialization-detail-card{
     align-items:center;
     justify-content:center;
 }
+.footer{
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    background:#f8f9fa;
+    border-top:1px solid #ddd;
+    color:#555;
+    font-size:14px;
+    border-radius:12px 12px 0 0;
+}
+
+.footer p{
+    margin:5px 0;
+}
