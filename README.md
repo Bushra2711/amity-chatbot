@@ -1,4 +1,4 @@
-# AI-Powered Amity University BCA Admission Assistant Chatbot
+# AI-Powered Student Support System for BCA Admissions 
 
 An AI-powered chatbot developed using Flask and Machine Learning techniques to help students with Amity University BCA admissions, fees, scholarships, eligibility, placements, and specializations.
 
@@ -114,9 +114,7 @@ http://127.0.0.1:5000
 The project can be deployed easily using:
 
 * Render
-* PythonAnywhere
-* Railway
-
+  
 Production server used:
 
 * Gunicorn
