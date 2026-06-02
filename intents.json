@@ -40,10 +40,10 @@
       "responses_hinglish": ["Documents: 10th-12th marksheet, Aadhaar, photos aur Migration certificate chahiye."]
     },
   {
-  "tag": "scholarship",
+  "tag":"scholarship",
   "patterns": ["scholarship", "scholarships", "merit scholarship", "fee concession", "discount", "financial aid"],
   "responses_en": ["🎉 Great news! Amity offers scholarships and fee concessions:\n\n✅ Divyaang (Persons with Special Needs) – 20%\n✅ Defence Personnel – 20%\n✅ Amity University Alumni – 20%\n✅ Merit-Based (85%+ Marks) – 20%\n✅ Sports Scholarship (CHAMPS) – 30% to 100%\n\n💰 Additional Discounts:\n✔ Full Fee Payment – 8% to 12% Discount\n✔ Annual Fee Payment – 5% Discount"],
-  "responses_hinglish": ["🎓 🎉 Bahut acchi baat! Amity mein scholarships aur fee concessions available hain.:\n\n✅ Divyaang (Special Needs) – 20%\n✅ Defence Personnel – 20%\n✅ Amity Alumni – 20%\n✅ Merit-Based (85%+ Marks) – 20%\n✅ Sports Scholarship (CHAMPS) – 30% se 100%\n\n💰 Additional Discounts:\n✔ Full Fee Payment – 8% se 12% Discount\n✔ Annual Fee Payment – 5% Discount"]
+  "responses_hinglish": ["🎓 🎉 Bahut acchi baat! Amity mein scholarships aur fee concessions available hain:\n\n✅ Divyaang (Special Needs) – 20%\n✅ Defence Personnel – 20%\n✅ Amity Alumni – 20%\n✅ Merit-Based (85%+ Marks) – 20%\n✅ Sports Scholarship (CHAMPS) – 30% se 100%\n\n💰 Additional Discounts:\n✔ Full Fee Payment – 8% se 12% Discount\n✔ Annual Fee Payment – 5% Discount"]
 },
     {
       "tag": "specialization",
