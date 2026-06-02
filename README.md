@@ -113,7 +113,7 @@ http://127.0.0.1:5000
 
 The project can be deployed easily using:
 
-* Render
+* Railway
   
 Production server used:
 
