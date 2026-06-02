@@ -55,8 +55,9 @@ body{
     width:100%;
     max-width:1400px;
 
-    height:calc(100vh - 40px);
-
+    min-height:100dvh;
+    height:auto;
+    
     margin:0 auto;
 
     display:grid;
@@ -699,7 +700,7 @@ body.dark-mode .specialization-detail-card{
     }
 
     .hero-panel h1{
-        font-size:34px;
+        font-size:24px;
         max-width:100%;
     }
 
@@ -753,11 +754,12 @@ body.dark-mode .specialization-detail-card{
 }
 
     #sendButton{
-        width:110px;
-        height:58px;
-        font-size:17px;
-    }
-
+    min-width:90px;
+    width:auto;
+    padding:0 18px;
+    height:58px;
+    font-size:17px;
+} 
     .sidebar-actions{
         width:100%;
     }
@@ -820,4 +822,20 @@ body.dark-mode .specialization-detail-card{
 
 .footer p{
     margin:5px 0;
+}
+
+@media screen and (max-width:768px){
+
+    html,
+    body{
+        width:100%;
+        overflow-x:hidden;
+    }
+
+    .chat-panel,
+    .hero-panel{
+        width:100%;
+        max-width:100%;
+    }
+
 }
