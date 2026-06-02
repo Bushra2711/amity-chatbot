@@ -468,8 +468,10 @@ body{
 }
 
 #sendButton{
-    width:90px;
-    font-size:14px;
+    width:58px;
+    min-width:58px;
+    padding:0;
+    font-size:22px;
 }
 
 .specialization-panel{
@@ -753,13 +755,13 @@ body.dark-mode .specialization-detail-card{
     padding:0 18px;
 }
 
-    #sendButton{
-    min-width:90px;
-    width:auto;
-    padding:0 18px;
+   #sendButton{
+    width:58px;
+    min-width:58px;
     height:58px;
-    font-size:17px;
-} 
+    padding:0;
+    font-size:22px;
+}
     .sidebar-actions{
         width:100%;
     }
