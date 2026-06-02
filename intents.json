@@ -3,8 +3,8 @@
     {
       "tag": "greeting",
       "patterns": ["hi", "hello", "hey", "namaste", "hii", "good morning", "good evening", "kaise ho"],
-      "responses_en": ["Hello! 👋 Welcome to Amity BCA Admission Assistant."],
-      "responses_hinglish": ["Namaste! 👋 Amity BCA Admission Assistant mein aapka swagat hai. Main aapki madad ke liye hoon 😊 Kya help chahiye?"]
+      "responses_en": ["Hello! 👋 Welcome AI-Powered Student Support System for BCA Admissions"],
+      "responses_hinglish": ["Namaste! 👋 AI-Powered Student Support System for BCA Admissions mein aapka swagat hai. Main aapki madad ke liye hoon 😊 Kya help chahiye?"]
     },
     {
       "tag": "fees",
@@ -22,25 +22,29 @@
     "✨ Amity University Admission Process:\n\n1️⃣ Official Amity portal par online form fill karo.\n2️⃣ Application fee pay karo (₹1,500 – non‑refundable).\n3️⃣ Documents upload karo: 10th & 12th mark‑sheets, ID proof, passport photo.\n4️⃣ Admission Microsite par status check karo (updates wahi milenge, email nahi aayega).\n5️⃣ Selection merit‑based hota hai. Agar aapke 12th me 80%+ marks hain to direct admission mil sakta hai. Kuch PG courses me entrance test + interview bhi hota hai.\n\n📌 Note: Admissions abhi open hain UG, PG aur PhD programs ke liye. Deadlines course ke hisaab se alag hoti hain.\n\nHelp ke liye helpline [1800-102-3434](tel:18001023434) par call karein ya admissions@amityonline.com par email bhejein 😊"
   ]
 },
-
-    {
-      "tag": "eligibility",
-      "patterns": ["eligibility", "eligible", "qualification", "12th marks"],
-       "responses_en": ["Students must have at least 50% marks in 12th standard. For SC/ST category, the minimum requirement is 45%."],
-      "responses_hinglish": ["12th mein minimum 50% marks chahiye. SC/ST category ke liye 45% required hai."]
+    { "tag": "bca_online",
+      "patterns": ["what is bca online", "bca online kya hai", "online bca kya hota hai", "bca online details", "bca online course"],
+      "responses_en": ["Online BCA delivers the BCA curriculum remotely using live/recorded lectures, LMS materials, and online assessments. Duration is typically 3 years."],
+      "responses_hinglish": ["Online BCA wahi BCA degree hai jo online mode mein padhai karwayi jati hai — live/recorded lectures aur LMS ke through. Duration 3 saal hoti hai."]
     },
+    {
+  "tag": "eligibility",
+  "patterns": ["eligibility", "eligible", "qualification", "12th marks", "who can apply", "bca eligibility"],
+  "responses_en": ["Students who have completed 10+2 from a recognized board are eligible for Online BCA."],
+  "responses_hinglish": ["Jo students recognized board se 10+2 pass hain wo Online BCA ke liye eligible hain."]
+},
     {
       "tag": "documents",
       "patterns": ["documents", "docs", "required documents"],
       "responses_en": ["Required Documents: 10th & 12th Marksheet, Aadhaar Card, Passport Size Photos, and Migration Certificate."],
       "responses_hinglish": ["Documents: 10th-12th marksheet, Aadhaar, photos aur Migration certificate chahiye."]
     },
-    {
-      "tag": "scholarship",
-      "patterns": ["scholarship", "scholarships", "merit scholarship"],
-      "responses_en": ["Great news! Amity offers up to 100% scholarship based on your 12th marks. Would you like details?"],
-      "responses_hinglish": ["Bahut acchi baat! 12th marks pe 100% tak scholarship mil sakta hai. Details chahiye?"]
-    },
+  {
+  "tag": "scholarship",
+  "patterns": ["scholarship", "scholarships", "merit scholarship", "fee concession", "discount", "financial aid"],
+  "responses_en": ["🎉 Great news! Amity offers scholarships and fee concessions:\n\n✅ Divyaang (Persons with Special Needs) – 20%\n✅ Defence Personnel – 20%\n✅ Amity University Alumni – 20%\n✅ Merit-Based (85%+ Marks) – 20%\n✅ Sports Scholarship (CHAMPS) – 30% to 100%\n\n💰 Additional Discounts:\n✔ Full Fee Payment – 8% to 12% Discount\n✔ Annual Fee Payment – 5% Discount"],
+  "responses_hinglish": ["🎓 🎉 Bahut acchi baat! Amity mein scholarships aur fee concessions available hain.:\n\n✅ Divyaang (Special Needs) – 20%\n✅ Defence Personnel – 20%\n✅ Amity Alumni – 20%\n✅ Merit-Based (85%+ Marks) – 20%\n✅ Sports Scholarship (CHAMPS) – 30% se 100%\n\n💰 Additional Discounts:\n✔ Full Fee Payment – 8% se 12% Discount\n✔ Annual Fee Payment – 5% Discount"]
+},
     {
       "tag": "specialization",
       "patterns": ["specialization", "specializations", "courses", "stream"],
@@ -200,6 +204,24 @@
   "responses_hinglish": [
     "Amity 24×7 student support, academic guidance aur career counselling provide karta hai."
   ]
+},
+{
+  "tag": "emi_option",
+  "patterns": ["emi","emi option","installment","monthly payment","fees in emi","emi available"],
+  "responses_en": ["Yes, EMI options are available for Online BCA. Students can pay fees in easy monthly installments according to university policies."],
+  "responses_hinglish": ["Haan 😊 Online BCA ke liye EMI option available hai. Aap fees ko easy monthly installments mein pay kar sakte hain."]
+},
+{
+  "tag": "semester_exam",
+  "patterns": ["semester exam", "each semester exam", "exam every semester", "har semester exam hota hai", "semester wise exam"],
+  "responses_en": ["Yes, every semester has its own examinations and assessments. Students must complete exams at the end of each semester."],
+  "responses_hinglish": ["Haan, har semester ke end mein alag exam aur assessments hote hain. Students ko har semester ka exam dena hota hai."]
+},
+{
+  "tag": "student_feedback",
+"patterns": ["student feedback", "student reviews", "testimonials", "student experience", "reviews", "review", "feedback"],
+  "responses_en": ["Students have shared positive experiences about the flexible learning environment, quality education, supportive faculty, and career growth opportunities at Amity Online."],
+  "responses_hinglish": ["Students ne flexible learning environment, quality education, supportive faculty aur career growth opportunities ke baare mein positive feedback diya hai."]
 }
   ]
 }
