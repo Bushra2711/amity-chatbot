@@ -260,22 +260,14 @@ body{
 }
 
 .message-bubble{
-    max-width:50%;
-
-    word-wrap:break-word;
-
-    overflow-wrap:break-word;
-    
-    white-space:pre-line;
-
-    padding:10px 14px;
-
-    border-radius:20px;
-
-    line-height:1.4;
-
-    box-shadow:0 8px 24px rgba(0,0,0,0.08);
+    max-width:40%;       /* aur chhota width */
+    padding:8px 12px;    /* andar ka space kam */
+    font-size:14px;      /* text size neat */
+    line-height:1.3;     /* spacing tight */
+    border-radius:14px;  /* corners thode compact */
+    box-shadow:0 4px 12px rgba(0,0,0,0.08); /* shadow halka */
 }
+
 
 .bot-message .message-bubble{
     background:#eef5ff;
