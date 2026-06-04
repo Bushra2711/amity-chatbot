@@ -244,7 +244,7 @@ function scrollToBottom() {
             behavior: 'smooth'
         });
 
-    }, 120);
+    }, 1000);
 
 }
 
@@ -282,7 +282,7 @@ function addBotMessage(html) {
 }
 
 function showWelcomeSequence() {
-  addBotMessage('Hello 👋 Welcome to Amity BCA Admission Assistant.');
+  addBotMessage('Hi Student! 👋 Welcome to the AI‑Powered Student Support System for BCA Admissions.');
 
   setTimeout(() => {
     addBotMessage(`
