@@ -76,6 +76,8 @@ body{
     height:100%;
 
     overflow:hidden;
+    box-sizing: border-box;
+    padding:20px;
 }
 
 /* BRAND */
@@ -258,7 +260,7 @@ body{
 }
 
 .message-bubble{
-    max-width:60%;
+    max-width:50%;
 
     word-wrap:break-word;
 
@@ -266,11 +268,11 @@ body{
     
     white-space:pre-line;
 
-    padding:18px;
+    padding:10px 14px;
 
     border-radius:20px;
 
-    line-height:1.7;
+    line-height:1.4;
 
     box-shadow:0 8px 24px rgba(0,0,0,0.08);
 }
@@ -457,9 +459,10 @@ body{
 }
 
 .message-bubble{
-    max-width:95%;
+    max-width:95% !important;
     padding:14px;
     font-size:14px;
+    line-height:1.6
 }
 
 .composer{
