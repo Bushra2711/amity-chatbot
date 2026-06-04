@@ -35,7 +35,7 @@ body{
 
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    justify-content:flex-start;
     align-items:stretch;
 
     overflow-x:hidden;
@@ -65,6 +65,8 @@ body{
     grid-template-columns:300px 1fr;
 
     gap:18px;
+
+    align-items:start;
 }
 
 /* SIDEBAR */
@@ -256,7 +258,7 @@ body{
 }
 
 .message-bubble{
-    max-width:75%;
+    max-width:60%;
 
     word-wrap:break-word;
 
@@ -737,7 +739,7 @@ body.dark-mode .specialization-detail-card{
     }
 
     .message-bubble{
-        max-width:100%;
+        max-width:95% !important;
         font-size:14px;
         line-height:1.6;
         word-break:break-word;
@@ -842,5 +844,6 @@ body.dark-mode .specialization-detail-card{
         width:100%;
         max-width:100%;
     }
+  
 
 }
